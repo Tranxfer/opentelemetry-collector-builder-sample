@@ -15,7 +15,7 @@ jobs:
         token: ${{ github.token }}
     - name: "Update: main"
       id: sync-main
-      uses: mathieucarbou/Fork-Sync-With-Upstream-action@fork-sync
+      uses: aormsby/Fork-Sync-With-Upstream-action@fork-sync
       with:
         domain: 'github.com'
         upstream_repository: GoogleCloudPlatform/opentelemetry-collector-builder-sample

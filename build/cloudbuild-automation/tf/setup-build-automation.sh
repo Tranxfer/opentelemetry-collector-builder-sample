@@ -14,9 +14,9 @@
 
 #!/bin/sh
 CONTAINER_REGISTRY="otel-collectors" # This can be changed to any name you want
-REGISTRY_LOCATION="us-central1" # This can be changed to any region you want
+REGISTRY_LOCATION="europe-west1" # This can be changed to any region you want
 REPOSITORY_NAME="opentelemetry-collector-builder-sample" # Replace it with the name of your repository
-REPOSITORY_OWNER="GoogleCloudPlatform" # Replace this with the name of owner of the repository
+REPOSITORY_OWNER="Tranxfer" # Replace this with the name of owner of the repository
 TRACKED_BRANCH="main" # Replace this with the name of the branch against you wish to add build automation
 
 echo "Running against project ${PROJECT_ID}"

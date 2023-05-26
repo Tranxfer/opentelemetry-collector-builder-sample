@@ -72,7 +72,7 @@ exporters:
 #     topic: my-topic
 
   logging:
-    loglevel: debug
+    loglevel: error
 
 processors:
   resourcedetection/gke:
